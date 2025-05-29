@@ -74,7 +74,7 @@ Open your web browser and navigate to http://localhost:4200
 
 ## 📂 Project Structure
 The repository is organized into two main parts:
-
+```
 .
 ├── BooksCRUD/                # ASP.NET Core Backend Project
 │   ├── Controllers/          # API Controllers for CRUD operations
@@ -94,4 +94,4 @@ The repository is organized into two main parts:
 │       └── ...
 ├── .gitignore                # Git ignore file for common build artifacts and temporary files
 └── README.md                 # This README file
-
+```
