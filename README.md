@@ -77,12 +77,13 @@ The repository is organized into two main parts:
 ```
 .
 ├── BooksCRUD/                # ASP.NET Core Backend Project
+
 │   ├── Controllers/          # API Controllers for CRUD operations
 │   ├── Models/               # Data models
 │   ├── DatabaseContext/      # DbContext and Migrations
 │   ├── appsettings.json      # Configuration settings
 │   ├── BooksCRUD.csproj      # Project file
-│   └── ...
+
 ├── Client/
 │   └── BooksAngularApp/      # Angular 19 Frontend Project
 │       ├── src/              # Source code for Angular app
@@ -90,7 +91,6 @@ The repository is organized into two main parts:
 │       │   └── assets/       # Static assets
 │       ├── angular.json      # Angular CLI configuration
 │       ├── package.json      # Node.js dependencies
-│       ├── proxy.conf.json   # (Optional) Frontend proxy configuration
 │       └── ...
 ├── .gitignore                # Git ignore file for common build artifacts and temporary files
 └── README.md                 # This README file
