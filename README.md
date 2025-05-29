@@ -39,14 +39,13 @@ Before you begin, ensure you have the following installed on your machine:
    
  * SQL Server:SQL Server Express (for local development): Download from Microsoft SQL Server Downloads.
 
-🚀 Getting Started
-Follow these steps to get the application up and running on your local machine.
+**🚀 Getting Started:Follow these steps to get the application up and running on your local machine.**
 
-1. Clone the Repository
+**1. Clone the Repository**
    
  * First, clone the project from GitHub: git clone https://github.com/Rizva/AspNetCoreAngularSQL_BooksCRUD.git
    
-2. Backend Setup (ASP.NET Core)
+**2. Backend Setup (ASP.NET Core)**
    
  * Navigate to the backend project directory: cd BooksCRUD
    
@@ -58,7 +57,7 @@ Follow these steps to get the application up and running on your local machine.
    
  * Run the Backend API: dotnet run
 
-3. Frontend Setup (Angular)
+**3. Frontend Setup (Angular)**
    
  * Open a new terminal/command prompt.
    
