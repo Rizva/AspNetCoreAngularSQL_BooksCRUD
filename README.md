@@ -7,23 +7,23 @@ This is a full-stack web application demonstrating Create, Read, Update, and Del
 
 **Backend:**
 
-  *ASP.NET Core: A cross-platform, high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
+  * ASP.NET Core: A cross-platform, high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
   
-  *C#: The primary programming language for the backend.
+  * C#: The primary programming language for the backend.
   
-  *Entity Framework Core: An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.
+  * Entity Framework Core: An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.
   
-  *SQL Server: A relational database management system developed by Microsoft for storing and retrieving data.
+  * SQL Server: A relational database management system developed by Microsoft for storing and retrieving data.
 
 **Frontend:**
 
-  *Angular 19: A platform and framework for building single-page client applications using HTML and TypeScript.
+  * Angular 19: A platform and framework for building single-page client applications using HTML and TypeScript.
   
-  *TypeScript: A strongly typed superset of JavaScript that compiles to plain JavaScript.
+  * TypeScript: A strongly typed superset of JavaScript that compiles to plain JavaScript.
   
-  *HTML/CSS: For structuring and styling the user interface.
+  * HTML/CSS: For structuring and styling the user interface.
   
-  *Angular CLI: Command Line Interface for Angular to create, manage, and build Angular projects.
+  * Angular CLI: Command Line Interface for Angular to create, manage, and build Angular projects.
 
 
 ## 📋 Prerequisites
