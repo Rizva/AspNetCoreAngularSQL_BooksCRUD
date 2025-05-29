@@ -1,0 +1,10 @@
+.navbar-nav .nav-link {
+  color: #808080;
+}
+.navbar-nav .nav-link.active {
+  color: #4cff00;
+}
+
+
+
+

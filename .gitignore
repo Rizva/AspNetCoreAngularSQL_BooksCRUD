@@ -1,0 +1,135 @@
+# This .gitignore file is for a combined ASP.NET Core (VS 2022)
+# and Angular frontend project.
+
+# =====================================================================
+# Visual Studio / .NET Core / C# specific ignores
+# =====================================================================
+
+# Visual Studio 2015+ solution/project files
+# .vs/ folder contains user-specific solution files, caches, etc.
+.vs/
+*.suo
+*.user
+*.user.json # For example, secrets.json local user secrets ID if not committed.
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.tmp
+*.obj
+*.ilk
+*.idb
+*.ipch
+*.log
+*.ncb
+*.sbr
+*.res
+*.tlb
+*.lib
+*.map
+*.bak
+*.sdf
+*.opensdf
+*.docstates
+
+# NuGet packages and caches
+*.nupkg
+# Packages folder (old-style for packages.config, not PackageReference)
+# If you still have a 'packages/' folder (e.g., older style or global packages cache), uncomment:
+# packages/
+
+# Test results
+TestResults/
+
+# Resharper / DotSettings files
+*.DotSettings
+*.userprefs
+
+# ASP.NET Core specific
+appsettings.Development.json # Often contains local sensitive info
+appsettings.Production.json
+appsettings.*.json # More generic for other environments
+Properties/launchSettings.json # Local launch profiles, not for source control
+
+# Generated files for Entity Framework Core migrations
+# If you commit migrations, you might want to uncomment a specific folder
+# for the generated snapshot or context model
+# Example: If your migrations are in 'Data/Migrations/' and you want to ignore snapshots:
+# Data/Migrations/*.Designer.cs
+# Data/Migrations/*_ContextModelSnapshot.cs
+# Note: Usually you *do* commit migration files unless they are temporary.
+
+# User secrets (handled by the .NET CLI, stored outside repo by default, but good to double check)
+# It's typically located in %APPDATA%\Microsoft\UserSecrets\<UserSecretsId>\secrets.json
+# so it won't be in your repo anyway, but if it accidentally got created locally:
+secrets.json
+
+# Local database files
+*.mdf
+*.ldf
+*.sdf
+*.db
+
+# =====================================================================
+# Angular / Node.js / Frontend specific ignores
+# =====================================================================
+
+# Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Build artifacts for Angular (usually inside the Angular project folder, e.g., 'ClientApp/dist/')
+# You'll need to adjust this path based on where your Angular project is relative to the .gitignore.
+# Assuming your Angular project is in a subfolder like 'ClientApp' or 'AngularApp':
+ClientApp/dist/ # Common build output folder for Angular
+AngularApp/dist/ # Another common example
+*/dist/          # A more generic pattern if you have multiple frontend apps in subfolders
+
+# Angular Cache
+.angular/cache/
+
+# Cypress/Protractor (E2E testing)
+cypress/videos/
+cypress/screenshots/
+# protractor_config.js # If generated dynamically and not needed in repo
+
+# Storybook
+.storybook/out/
+
+# Other temporary or build files
+tmp/
+.tmp/
+*.log
+
+# =====================================================================
+# General / OS specific ignores
+# =====================================================================
+
+# Visual Studio Code specific settings (user-specific, not project-wide)
+.vscode/
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Temporary files created by various editors/tools
+*~
+.#*
+*.bak
+*.swp
+*.swo
+
+# =====================================================================
+# Example of explicitly including files that might otherwise be ignored
+# (Uncomment if you have a specific need)
+# =====================================================================
+#!ClientApp/dist/.gitkeep # Example: if you want to keep an empty 'dist' folder

@@ -1,0 +1,36 @@
+<div class="card">
+  <div class="card-header">
+    Books App
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Books CRUD application</h5>
+    <p class="card-text">This is a an application that enables us to create,read,update and delete books and its corresponding authors from database using angular,asp.net and sql.</p>
+    <p>Below is the list of available genres</p>
+    <a routerLink="/books" routerLinkActive="active" class="btn btn-primary">Go to books</a>
+
+  </div>
+</div>
+
+<div class="container">
+  <table mat-table [dataSource]="genres()" class="mat-elevation-z8">
+    <!-- ID Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- Description Column -->
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef> Description </th>
+      <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
