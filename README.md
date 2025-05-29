@@ -1,7 +1,9 @@
+
+## 🚀 Introduction
 Books CRUD Application
 This is a full-stack web application demonstrating Create, Read, Update, and Delete (CRUD) operations for managing a collection of books. The backend is built with ASP.NET Core, the frontend with Angular 19, and data is persisted in a SQL Server database. This project was developed for practice and learning purposes.
 
-✨ Features
+## ✨ Features
 Create: Add new book entries to the database.
 
 Read: View a list of all books, including details like title, author, and publication year.
@@ -12,7 +14,8 @@ Delete: Remove book entries from the database.
 
 Responsive Design: (Optional, but good to mention if implemented) User interface adapts to various screen sizes.
 
-🚀 Technologies Used
+
+## 🚀 Getting Started
 Backend:
 
 ASP.NET Core: A cross-platform, high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
@@ -33,7 +36,8 @@ HTML/CSS: For structuring and styling the user interface.
 
 Angular CLI: Command Line Interface for Angular to create, manage, and build Angular projects.
 
-📋 Prerequisites
+
+## 📋 Prerequisites
 Before you begin, ensure you have the following installed on your machine:
 
 .NET SDK: Version 8.0 or later (compatible with ASP.NET Core). You can download it from dot.net.
@@ -100,13 +104,13 @@ ng serve --open
 
 This command will compile the Angular application and open it in your default web browser (usually http://localhost:4200).
 
-💡 Usage
+## 💡 Usage
 Once both the backend API and the Angular frontend are running:
 
 Open your web browser and navigate to http://localhost:4200
 
 
-📂 Project Structure
+## 📂 Project Structure
 The repository is organized into two main parts:
 
 .
