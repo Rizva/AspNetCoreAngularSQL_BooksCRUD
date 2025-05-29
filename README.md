@@ -84,14 +84,14 @@ The repository is organized into two main parts:
 │   ├── appsettings.json      # Configuration settings
 │   ├── BooksCRUD.csproj      # Project file
 
-├── Client/
-│   └── BooksAngularApp/      # Angular 19 Frontend Project
-│       ├── src/              # Source code for Angular app
-│       │   ├── app/          # Angular components, services, modules
-│       │   └── assets/       # Static assets
-│       ├── angular.json      # Angular CLI configuration
-│       ├── package.json      # Node.js dependencies
-│       └── ...
+|   ├── Client/
+│     └── BooksAngularApp/      # Angular 19 Frontend Project
+│         ├── src/              # Source code for Angular app
+│         │   ├── app/          # Angular components, services, modules
+│         │   └── assets/       # Static assets
+│         ├── angular.json      # Angular CLI configuration
+│         ├── package.json      # Node.js dependencies
+│         └── ...
 ├── .gitignore                # Git ignore file for common build artifacts and temporary files
 └── README.md                 # This README file
 ```
