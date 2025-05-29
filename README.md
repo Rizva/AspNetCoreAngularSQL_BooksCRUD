@@ -30,27 +30,42 @@ This is a full-stack web application demonstrating Create, Read, Update, and Del
 Before you begin, ensure you have the following installed on your machine:
 
  * .NET SDK: Version 8.0 or later (compatible with ASP.NET Core). You can download it from dot.net.
+
  * Node.js & npm: LTS (Long Term Support) version recommended. Download from nodejs.org. npm is included with Node.js.
+   
  * Angular CLI: Install globally using npm:
+   
  * npm install -g @angular/cli
+   
  * SQL Server:SQL Server Express (for local development): Download from Microsoft SQL Server Downloads.
 
 🚀 Getting Started
 Follow these steps to get the application up and running on your local machine.
 
 1. Clone the Repository
+   
  * First, clone the project from GitHub: git clone https://github.com/Rizva/AspNetCoreAngularSQL_BooksCRUD.git
+   
 2. Backend Setup (ASP.NET Core)
+   
  * Navigate to the backend project directory: cd BooksCRUD
+   
  * Restore NuGet packages: dotnet restore
+   
  * Update Database Connection String: Open appsettings.json (and appsettings.Development.json) in the BooksCRUD folder. Update the DefaultConnection string to point to your SQL Server instance. Example for SQL Server LocalDB:("DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=BooksDb;Trusted_Connection=True;MultipleActiveResultSets=true")
+   
  * Apply Database Migrations: dotnet ef database update
+   
  * Run the Backend API: dotnet run
 
 3. Frontend Setup (Angular)
+   
  * Open a new terminal/command prompt.
+   
  * Navigate to the Angular project directory: cd Client/BooksAngularApp
+   
  * Install npm packages: npm install
+   
  * Run the Angular Development Server: ng serve --open
 
 ## 💡 Usage
