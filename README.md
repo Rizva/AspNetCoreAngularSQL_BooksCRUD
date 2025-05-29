@@ -4,37 +4,26 @@ Books CRUD Application
 This is a full-stack web application demonstrating Create, Read, Update, and Delete (CRUD) operations for managing a collection of books. The backend is built with ASP.NET Core, the frontend with Angular 19, and data is persisted in a SQL Server database. This project was developed for practice and learning purposes.
 
 ## ✨ Features
-Create: Add new book entries to the database.
 
-Read: View a list of all books, including details like title, author, and publication year.
+**Backend:**
 
-Update: Modify existing book details.
+  *ASP.NET Core: A cross-platform, high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
+  
+  *C#: The primary programming language for the backend.
+  
+  *Entity Framework Core: An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.
+  
+  *SQL Server: A relational database management system developed by Microsoft for storing and retrieving data.
 
-Delete: Remove book entries from the database.
+**Frontend:**
 
-Responsive Design: (Optional, but good to mention if implemented) User interface adapts to various screen sizes.
-
-
-## 🚀 Getting Started
-Backend:
-
-ASP.NET Core: A cross-platform, high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
-
-C#: The primary programming language for the backend.
-
-Entity Framework Core: An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.
-
-SQL Server: A relational database management system developed by Microsoft for storing and retrieving data.
-
-Frontend:
-
-Angular 19: A platform and framework for building single-page client applications using HTML and TypeScript.
-
-TypeScript: A strongly typed superset of JavaScript that compiles to plain JavaScript.
-
-HTML/CSS: For structuring and styling the user interface.
-
-Angular CLI: Command Line Interface for Angular to create, manage, and build Angular projects.
+  *Angular 19: A platform and framework for building single-page client applications using HTML and TypeScript.
+  
+  *TypeScript: A strongly typed superset of JavaScript that compiles to plain JavaScript.
+  
+  *HTML/CSS: For structuring and styling the user interface.
+  
+  *Angular CLI: Command Line Interface for Angular to create, manage, and build Angular projects.
 
 
 ## 📋 Prerequisites
@@ -48,9 +37,7 @@ Angular CLI: Install globally using npm:
 
 npm install -g @angular/cli
 
-SQL Server:
-
-SQL Server Express (for local development): Download from Microsoft SQL Server Downloads.
+SQL Server:SQL Server Express (for local development): Download from Microsoft SQL Server Downloads.
 
 
 🚀 Getting Started
